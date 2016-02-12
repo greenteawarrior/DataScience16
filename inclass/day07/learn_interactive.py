@@ -31,8 +31,8 @@ from sklearn.cross_validation import train_test_split
 from numpy import meshgrid
 import matplotlib.pyplot as plt
 
-canvas_dim = 500
-n_points = 100
+canvas_dim = 100 # originally 500
+n_points = 20 # originally 100
 noise = .2
 
 def make_random_tree():
